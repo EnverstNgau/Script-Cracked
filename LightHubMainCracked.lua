@@ -8631,7 +8631,7 @@ end)
             saveSettings()
         end
     })
-    SettingSection:AddToggle{
+    MainMiscSection:AddToggle{
         Name = "Fast Attack [ Normal ]",
         Flag = "Fast_Attack",
         Value = _G.Settings.Extra_Fast_Attacka,
